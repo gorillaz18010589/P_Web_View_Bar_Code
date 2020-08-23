@@ -1,0 +1,21 @@
+<!--
+掃條碼功能,透過webView寫入遠端mySql
+只是要寫一個介紹給他的物件名字叫hank然後該物件裡面有這個方法 ->hank.callFromJS();
+將條碼掃來的code顯示在網頁上
+ function showCode(code){
+        document.getElementById('code').innerHtml = code;
+    }
+
+-->
+<script>
+  function scan(){
+        brad.callFromJS();
+    }
+    function showCode(code){
+        document.getElementById('code').value = code;
+    }
+
+</script>
+
+<input type="text" id="code"/>
+<input type="button" onclick="scan()" value="scan"/>

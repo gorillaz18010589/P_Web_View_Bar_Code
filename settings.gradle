@@ -1,0 +1,2 @@
+rootProject.name='P_Web_View_Bar_Code'
+include ':app'
